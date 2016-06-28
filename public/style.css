@@ -12,18 +12,24 @@ body {
   -o-background-size: cover;
   background-size: cover;
   overflow-y: scroll;
+  /*opacity: 0.5;
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;*/
 }
 #welcome {
   margin-top: 40px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
-  font-weight: 300;
-  color: #ffffff;
+  font-weight: 900;
+  color: #fc9d06;
   align-content: center;
 }
 #logo {
-  margin-top: 20px;
-  margin-left: 250px;
+  margin-top: 5px;
+  margin-left: 260px;
   align-content: center;
   position:relative;
   display:block;
@@ -32,7 +38,7 @@ nav {
   margin-top: 40px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 900;
   color: #ffffff;
   align-content: left;
 }
@@ -74,5 +80,10 @@ section {
     width:296px;
     margin: 30px;
     position:inherit;
-
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fc9d06;
+    text-align: center;
+    text-shadow: 0 2px #000000;
 }
