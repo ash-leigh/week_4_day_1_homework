@@ -1,0 +1,78 @@
+header {
+  width:100%;
+  height: inherit;
+  background-color:#1d1d1b;
+  position:fixed;
+  display:block;
+}
+body {
+  background: url('pokemon-pikachu.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: scroll;
+}
+#welcome {
+  margin-top: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  align-content: center;
+}
+#logo {
+  margin-top: 20px;
+  margin-left: 250px;
+  align-content: center;
+  position:relative;
+  display:block;
+}
+nav {
+  margin-top: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  align-content: left;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav a:hover {
+    color:#fc9d06;
+    text-decoration: underline;
+}
+section {
+  margin-top: 20%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: #1d1d1b;
+  text-align: center;
+  text-shadow: 0 2px #ffffff;
+}
+
+.tile {
+  height: 296px;
+  width:auto;
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.tile_item {
+    background-color: #1d1d1b;
+    border-style: solid;
+    border-color: #fc9d06;
+    border-width: 5px;
+    height: 296px;
+    width:296px;
+    margin: 30px;
+    position:inherit;
+
+}
